@@ -69,3 +69,37 @@ button {
     width: auto;
     align-self: flex-start;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 100px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+
+    margin: 50px 0px;
+}
+
+.info-content {
+    display: flex;
+    text-align: center;
+
+    gap: 50px;
+}
+
+.info-content img {
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid #3883f6;
+}
+
+.info-content .information-text {
+    color: #646668;
+    width: 200px;
+}
