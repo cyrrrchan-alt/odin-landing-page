@@ -9,8 +9,7 @@ body {
     font-size: 24px;
     font-weight: bold;
 
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0px 200px;
 }
 
 .title-bar {
@@ -29,9 +28,44 @@ ul {
     gap: 16px;
 }
 
-a {
+.information-text {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 120px 0px;
+}
+
+.header-content #text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content .hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-content img {
+    width: 400px;
+}
+
+button {
+    background-color: #3883f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: auto;
+    align-self: flex-start;
 }
