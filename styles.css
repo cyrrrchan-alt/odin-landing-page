@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -31,8 +31,8 @@ ul {
 .information-text {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .header-content {
@@ -94,12 +94,39 @@ button {
 }
 
 .info-content img {
-    width: 200px;
+    width: 175px;
     border-radius: 10px;
     border: 5px solid #3883f6;
 }
 
 .info-content .information-text {
     color: #646668;
-    width: 200px;
+    width: 175px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 325px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
 }
