@@ -63,9 +63,10 @@ button {
     background-color: #3883f6;
     color: #f9faf8;
     border-radius: 10px;
+    border-style: none;
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 30px;
+    padding: 8px 30px;
     width: auto;
     align-self: flex-start;
 }
@@ -129,4 +130,34 @@ button {
     font-size: 24px;
     font-weight: 900;
     margin: 0;
+}
+
+.action {
+    padding: 100px 200px;
+}
+
+.action-container {
+    background-color: #3883f6;
+    border-radius: 10px;
+    padding: 50px 125px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.action button {
+    border-color: #f9faf8;
+    border-style: solid;
 }
